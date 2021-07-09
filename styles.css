@@ -562,7 +562,8 @@ justify-content: center;
       padding-top: 2.5%;
       padding-bottom: 2.5%;
       padding-left: 30%;
-      grid-column-start: 3;
+      grid-column-start: 1;
+      grid-column-end: 6;
   }
 
 .project-container{
