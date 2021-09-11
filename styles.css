@@ -40,6 +40,7 @@ body {
 }
 
 .btn-default a {
+    box-sizing: border-box;
     color: #505050;
     text-decoration: none;
 }
@@ -541,7 +542,7 @@ section#post-28 {
     display: block;
 }
 /*==================================================================
-[  doi-project ]*/
+[  doi-Casestudy ]*/
 
 h5{
     font-size: 1.4em;
@@ -658,3 +659,136 @@ text-align: center;
 html {
     scroll-behavior: smooth;
   }
+
+/*==================================================================
+[  about me ]*/
+.interestingfacts figcaption {
+  font-family: 'helvetica', 'san-serif';
+  font-weight: 100;
+  font-size: 1.3em;
+  padding-top: 3%;
+  line-height: 1.5;
+
+}
+
+/*
+.interestingfacts .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    justify-content: center;
+  }
+
+  /*==================================================================
+[  Pegasuse Theater 
+ ]*/
+ .projectarrow {
+    background-color: #fbf7f5;
+  }
+  .projectarrow .left {
+    text-align: left;
+  }
+  .projectarrow .right {
+    text-align: right;
+  }
+  .projectarrow .left img {
+    float: left;
+    padding: 1.5%;
+  }
+  .projectarrow .right img {
+    float: right;
+    padding: 1.5%;
+  }
+  .projectarrow img {
+    width: 10%;
+    height: auto;
+  }
+  .projectarrow h2 {
+    font-family: 'Manjari', 'san-serif';
+    font-size: 1.3em;
+    font-weight: 100;
+    color: #505050;
+  }
+  .projectarrow a:hover {
+    text-decoration: none;
+  }
+  .subheadlinebox-PTCH{
+    width: 100%;
+    padding: 1.2%;
+    background-color: #8C51A0;
+    text-align: center;
+    font-size:4vh;
+    color: white;
+}
+.headlinebox-PTCH{
+    width: 100%;
+    padding: 2.5%;
+    background-color: #666F72;
+    text-align: center;
+    font-size:4vh;
+    color: white;
+}
+.headlinebox2-PTCH{
+    width: 100%;
+    padding: 1.4%;
+    background-color: #8C51A0;
+    text-align: center;
+    font-size:4vh;
+    color: white;
+}
+    /*==================================================================
+    [  KCDC
+     ]*/
+     .subheadlinebox-KCDC{
+        width: 100%;
+        padding: 1.2%;
+        background-color: #3388EC ;
+        text-align: center;
+        font-size:4vh;
+        color: white;
+
+    }
+    .headlinebox-KCDC{
+        width: 100%;
+        padding: 2.5%;
+        background-color: #666F72;
+        text-align: center;
+        font-size:4vh;
+        color: white;
+    }
+    .headlinebox2-KCDC{
+        width: 100%;
+        padding: 1.4%;
+        background-color: #3388EC;
+        text-align: center;
+        font-size:4vh;
+    color: white;
+    }
+    /*==================================================================
+    [  KCDC
+     ]*/
+     .subheadlinebox-PDA{
+        width: 100%;
+        padding: 1.2%;
+        background-color: #FF602E ;
+        text-align: center;
+        font-size:4vh;
+        color: white;
+
+    }
+    .headlinebox-PDA{
+        width: 100%;
+        padding: 2.5%;
+        background-color: #666F72;
+        text-align: center;
+        font-size:4vh;
+        color: white;
+    }
+    .headlinebox2-PDA{
+        width: 100%;
+        padding: 1.4%;
+        background-color: #FF602E;
+        text-align: center;
+        font-size:4vh;
+    color: white;
+    }
