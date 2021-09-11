@@ -792,3 +792,33 @@ html {
         font-size:4vh;
     color: white;
     }
+}
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  .interestingfacts .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  .interestingfacts .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  .interestingfacts .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+.interestingfacts figcaption {
+  font-family: 'Manjari', 'san-serif';
+  font-weight: 100;
+  font-size: 1.1em;
+  padding-top: 3%;
+  line-height: 1.5;
+
+}
