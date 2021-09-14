@@ -1,5 +1,5 @@
 .navbar {
-    padding-top: 1%;
+    padding-top: 3.5%;
 }
 
     .navbar .navbar-brand {
@@ -7,15 +7,15 @@
         font-size: 2.5vh;
         font-family: 'Futura', 'san-serif';
         font-weight: 500;
-        padding-left:3%;
-        padding-bottom: 7%;
+        padding: 0 65px;
+  
            }
     .navbar ul a {
         color: #505050;
         font-size: 2vh;
         font-family: 'futura', 'san-serif';
         width: 50%;
-        padding: 0 60px;
+        padding: 0 30px;
         
         
     }
@@ -23,7 +23,14 @@
         .navbar ul a:hover {
             background-color: #fdf5f7;
         }
-
+        nav.navbar {
+            background: transparent;
+          }
+          span.icon-bar {
+            background-color: #505050;
+        
+          }
+          
 body {
     min-height: 100%;
     height: auto; 
@@ -39,6 +46,28 @@ body {
     width: 95vw;
 }
 
+.heading-copy .h1 {
+    color: #505050;
+  font-size: 3.2em;
+  font-family: 'Manjari', 'san-serif';
+  font-weight: 400;
+  padding-top: 2.5%;
+  padding-bottom: 0.5%;
+  padding-left: 2.5%;
+  
+}
+.heading-copy .h2 {
+    color: #505050;
+  font-size: 2em;
+  font-family: 'Manjari', 'san-serif';
+  font-weight: 100;
+  padding-left: 2.5%;
+  padding-right: 14%;
+  line-height: 1.5;
+  max-width: 80%;
+ 
+}
+
 .btn-default a {
     box-sizing: border-box;
     color: #505050;
@@ -49,10 +78,9 @@ body {
     background-color: #fdf5f7;
     border-color: #BD6B73;
 }
-#heading-copy{
-    padding-left: 5%;
-    max-width: 50%;
-}
+
+
+
 
 #work-image-grid {
     margin-top: 5%;
@@ -60,7 +88,7 @@ body {
 }
 
 .col-lg-6 {
-    padding: 3%;
+    padding: 2.5%;
 }
 
 .thumbnail-img:hover:hover img {
@@ -176,49 +204,7 @@ footer {
     width: 100%;
 }
 
-/*.image__overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    color: #ffffff;
-    font-family: 'helvetica', 'san-serif';
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    transition: opacity 0.25s;
-}
 
-.image__overlay--blur {
-    backdrop-filter: blur(5px);
-}
-
-.image__overlay > * {
-    transform: translateY(20px);
-    transition: transform 0.25s;
-}
-
-.image__overlay:hover {
-    opacity: 1;
-}
-
-    .image__overlay:hover > * {
-        transform: translateY(0);
-    }
-
-.image__title {
-    font-size: 2em;
-    font-weight: bold;
-}
-
-.image__description {
-    font-size: 1.5em;
-    margin-top: 2em;
-}*/
 
 .projectthumbnail {
     box-shadow: 0.9em 0.9em 0.5em -0.8em #c5c5c5, -0.9em 0.9em 0.5em -0.8em #c5c5c5;
@@ -535,7 +521,9 @@ section#post-28 {
     background-position: right center;
     max-width: 99px;
 }
-
+.thumbnailimg:hover img {
+    opacity: 0.85;
+  }
 .hero-text i {
     font-style: normal;
     margin-top: -6px;
@@ -553,9 +541,7 @@ p1{
     font-size:2em;
     color: black;
    }
-   h4{
-       font-size: 2em;
-   }
+
 .main-txt-doc{
     padding-top: 2.5%;
     padding-bottom: 2.5%;
@@ -564,12 +550,15 @@ p1{
     text-align:left;
   justify-content: center;
   display: block;
+  font-weight: 400;
+  line-height: 1.5em;
   }
   .ux-text{
       padding-top: 2.5%;
       padding-bottom: 2.5%;
       padding-left: 33%;
       width: 70%;
+      font-style: 400;
       
   }
 
@@ -577,9 +566,13 @@ p1{
     padding-top: 2.5%;
     padding-bottom: 2.5%;
     padding-left: 15%;
-    font-size: 18px;
+    font-size: 1em;
     color: black;
 }
+/*.project-container .doi-row h4{
+    font-size: 2em;   
+}
+*/
 .margin-top{
 margin-top: 2.5%;
 }
@@ -597,6 +590,19 @@ margin-top: 2.5%;
     text-align: center;
     font-size:4vh;
 }
+h3{
+    line-height: 1.5em;
+    position:relative;
+    display:flex;
+}
+h4{
+    font-size: clamp( 14px, 2vw, 24px);
+}
+   .mainpart-text{
+   margin:  clamp ( 20em, 2vw, 5em);
+}
+
+
 .subheadlinebox{
     width: 100%;
     padding: 1.2%;
@@ -639,6 +645,7 @@ text-align: center;
     color:black;
    padding-top: 2.5%; 
 }
+
     .img-casestudy-grid{
    
      margin: 10px 20px 10px 20px ;
@@ -679,8 +686,8 @@ html {
     justify-content: center;
   }
 
-  /*==================================================================
-[  Pegasuse Theater 
+  /*============================PTCH======================================
+[  
  ]*/
  .projectarrow {
     background-color: #fbf7f5;
@@ -764,8 +771,8 @@ html {
         font-size:4vh;
     color: white;
     }
-    /*==================================================================
-    [  KCDC
+    /*=====================PDA=============================================
+    [  
      ]*/
      .subheadlinebox-PDA{
         width: 100%;

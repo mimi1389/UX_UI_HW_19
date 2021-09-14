@@ -17,3 +17,7 @@ $(document).ready(function(){
   });
 });
 
+$.fn.ready(function(){
+$("h4").fitText(1.2, { minFontSize: '14', maxFontSize: '34' });
+
+});
