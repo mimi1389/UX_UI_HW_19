@@ -936,7 +936,7 @@ max-width: 100%;
   font-size: 1.1em;
   
 }
-
+}
 
 .interestingfacts figcaption {
   font-family: 'Manjari', 'san-serif';
@@ -948,8 +948,6 @@ max-width: 100%;
 
 }
 .interestingfacts{
-  
-  padding-top: 3%;
   padding-bottom: 7%;
   padding-left: 2%;
   padding-right: 2%;
