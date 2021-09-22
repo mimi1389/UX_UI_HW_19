@@ -7,7 +7,7 @@
         font-size: 2.5vh;
         font-family: 'Futura', 'san-serif';
         font-weight: 500;
-        padding: 0 65px;
+        padding: 0 70px;
   
            }
     .navbar ul a {
@@ -529,6 +529,43 @@ section#post-28 {
     margin-top: -6px;
     display: block;
 }
+
+/*============about===================================*/
+
+.aboutbody .about {
+  color: #505050;
+  font-size: 1.5em;
+  font-weight: 400;
+  font-family: 'Manjari', 'san-serif';
+  padding-bottom: 5%;
+}
+.aboutbody p {
+  color: #505050;
+  font-size: 1.1em;
+  font-weight: 100;
+  font-family: 'Manjari', 'san-serif';
+  line-height: 1.8;
+  padding-bottom: 1.3%;
+}
+.aboutbody button {
+  margin-left: 0;
+  margin-top: 3%;
+}
+.aboutbody .btn-default {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.aboutbody .mail {
+  color: #505050;
+}
+#image-gallery {
+  margin-bottom: 5%;
+}
+#image-gallery .col-lg-4 {
+  padding-bottom: 4%;
+}
 /*==================================================================
 [  doi-Casestudy ]*/
 
@@ -557,8 +594,9 @@ p1{
       padding-top: 2.5%;
       padding-bottom: 2.5%;
       padding-left: 33%;
-      width: 70%;
-      font-style: 400;
+      max-width: 70%;
+      font-size: .8em;
+      font-style: 100;
       
   }
 
@@ -662,6 +700,7 @@ text-align: center;
     margin-left: auto;
     width:60% ;
     padding: 2.5%;
+    align-items: center;
 }
 html {
     scroll-behavior: smooth;
@@ -819,13 +858,113 @@ html {
   .interestingfacts .column {
     flex: 100%;
     max-width: 100%;
-  }
+    font-size: 10px;
+    }
+.ux-text{
+  padding-left:10%;
+  width: 90%;
 }
+.navbar .navbar-brand {
+  padding: 15px 20px;
+  font-size: 14px;
+}
+.navbar ul a {
+  font-size: 12px;
+  padding: 10px 20px; 
+}
+
+
+.heading-copy .h1 {
+  color: #505050;
+font-size: 2em;
+font-family: 'Manjari', 'san-serif';
+font-weight: 400;
+padding-top: 2.5%;
+padding-bottom: 0.5%;
+padding-left: 2.5%;
+
+}
+.heading-copy .h2 {
+  color: #505050;
+font-size: 1em;
+font-family: 'Manjari', 'san-serif';
+font-weight: 100;
+padding-left: 2.5%;
+padding-right: 2.5%;
+line-height: 1.5;
+max-width: 100%;
+
+}
+.aboutbody .about {
+  color: #505050;
+  font-size: 1em;
+  font-weight: 400;
+  font-family: 'Manjari', 'san-serif';
+  
+}
+.aboutbody p {
+  color: #505050;
+  font-size: .7em;
+  font-weight: 100;
+  font-family: 'Manjari', 'san-serif';
+  line-height: 1.8;
+  padding-bottom: 1.3%;
+}
+.aboutbody button {
+  margin-left: 0%;
+  margin-top: 3%;
+
+}
+.aboutbody .btn-default {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.interestingfacts .row img {
+  width: 100%;
+  padding-left: .5%;
+  padding-right: .5%;
+ }
+ #work-image-grid figure .h1 {
+
+  font-size: 1.15em;
+  
+}
+#work-image-grid figure .h2 {
+
+  font-size: 1.1em;
+  
+}
+
+
 .interestingfacts figcaption {
   font-family: 'Manjari', 'san-serif';
   font-weight: 100;
   font-size: 1.1em;
   padding-top: 3%;
   line-height: 1.5;
+  padding-left: 2.5%;
 
+}
+.interestingfacts{
+  
+  padding-top: 3%;
+  padding-bottom: 7%;
+  padding-left: 2%;
+  padding-right: 2%;
+
+}
+.interestingfacts .row {
+
+  justify-content: center;
+}
+
+.interestingfacts .row img {
+  width: 100%;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-top: 15%;
+  vertical-align: middle;
+  width: 100%;
 }
