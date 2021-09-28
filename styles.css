@@ -572,6 +572,7 @@ section#post-28 {
 h5{
     font-size: 1.4em;
     color: black;
+    line-height: 1.5em;
 
 }
 p1{
@@ -611,6 +612,10 @@ p1{
     font-size: 2em;   
 }
 */
+
+.main-txt-doc h4{
+  line-height: 2em;
+}
 .margin-top{
 margin-top: 2.5%;
 }
@@ -630,15 +635,9 @@ margin-top: 2.5%;
 }
 h3{
     line-height: 1.5em;
-    position:relative;
-    display:flex;
+    
 }
-h4{
-    font-size: clamp( 14px, 2vw, 24px);
-}
-   .mainpart-text{
-   margin:  clamp ( 20em, 2vw, 5em);
-}
+
 
 
 .subheadlinebox{
@@ -652,6 +651,7 @@ h4{
   color: black;
   text-align: left;
   width: 30%;
+  padding-bottom: 2.5%;
 }
 .borderbox
     {
@@ -684,12 +684,7 @@ text-align: center;
    padding-top: 2.5%; 
 }
 
-    .img-casestudy-grid{
-   
-     margin: 10px 20px 10px 20px ;
-       padding: 0%;
-
-    }
+      
     .col-lg-3{
         padding: 10%;
     }
@@ -699,13 +694,32 @@ text-align: center;
     margin-right: auto;
     margin-left: auto;
     width:60% ;
-    padding: 2.5%;
+   padding-top: 2.5%;
+   padding-bottom: 2.5%;
+    align-items: center;
+}
+.userinsight
+{
+  display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width:30% ;
+   padding-top: 2.5%;
+   padding-bottom: 2.5%;
     align-items: center;
 }
 html {
     scroll-behavior: smooth;
   }
+.pimpact{
+  align-items: left;
+    width:60% ;
+ padding-top: 2.5%;
+ padding-bottom: 2.5%;
+ padding-left: 20%;
+   
 
+}
 /*==================================================================
 [  about me ]*/
 .interestingfacts figcaption {
@@ -716,6 +730,9 @@ html {
   line-height: 1.5;
 
 }
+.poverview{
+  width: 60%;
+}
 
 /*
 .interestingfacts .row {
@@ -725,7 +742,7 @@ html {
     justify-content: center;
   }
 
-  /*============================PTCH======================================
+  /*============================previous/next ===========================
 [  
  ]*/
  .projectarrow {
@@ -758,6 +775,7 @@ html {
   .projectarrow a:hover {
     text-decoration: none;
   }
+  /*======================PTCH==========================*/
   .subheadlinebox-PTCH{
     width: 100%;
     padding: 1.2%;
@@ -839,6 +857,7 @@ html {
     color: white;
     }
 }
+
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) {
   .interestingfacts .column {
@@ -936,6 +955,184 @@ max-width: 100%;
   font-size: 1.1em;
   
 }
+/*=========casestudy=========
+.doi-row .h3 {
+  font-size: 10em;
+  color: black;
+  font-weight: 500;
+
+}
+.doi-row h5 {
+  font-size: 10em;
+  color: black;
+  font-weight: 800;
+
+}
+p1{
+  font-size:2em;
+  color: black;
+ }
+
+.main-txt-doc{
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  margin: auto;
+  width: 100%;
+  text-align:left;
+justify-content: center;
+display: block;
+font-weight: 400;
+line-height: 1.5em;
+}
+.ux-text{
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    padding-left: 10%;
+    max-width: 100%;
+    font-size: .5em;
+    font-style: 100;
+    
+}
+
+.project-container{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top:2.5% ;
+  font-size: 1em;
+  color: black;
+  max-width: 100%;
+}
+.doi-row{
+  color: black;
+  text-align: left;
+  padding-top:2.5%;
+  align-items: center;
+  width: 100%;
+}
+*/
+
+
+
+/*.poverview{
+  width: 100%;
+  padding-left: 3%;
+}
+*/
+h5{
+  font-size: 1em;
+  color: black;
+  line-height: 1.8;
+  font-weight: 500;
+ 
+padding-left: 3%;
+
+}
+h3 {
+  color: #505050;
+font-size: 1.8em;
+font-family: 'Manjari', 'san-serif';
+font-weight: 400;
+padding-top: 2.5%;
+padding-left: 3%;
+
+}
+
+p1{
+  font-size:1em;
+  color: black;
+  line-height: 1.5em;
+ }
+ .doi-row{
+  width: 100%;
+  color: black;
+  text-align: left;
+  padding-top:2.5%;
+  align-items: center;
+  padding-left: 3%;
+  width: 100%;
+
+}
+.project-container{
+  padding-left: 3%;
+  padding-right: 3%;
+ 
+font-size: 1em;
+font-weight: 400;
+color: black;
+max-width: 100%;
+}
+.main-txt-doc{
+  padding: 15% 3%;
+  width: 100%;
+  text-align:left;
+  align-items: center;
+font-weight: 400;
+line-height: 1.5em;
+}
+.img-container{
+  display: block;
+
+  width:100% ;
+ padding: 15% 3%;
+ 
+  align-items: center;
+
+}
+.pimpact{
+  display: block;
+
+  width:100% ;
+ padding: 15% 3%;
+ 
+  align-items: center;
+
+}
+.userinsight
+{
+  display: block;
+      width:100% ;
+   padding:15% 3%;
+   
+    align-items: center;
+}
+.ux-text{
+  padding: 2.5% 3%;
+ line-height: 1.5em;
+  max-width: 100%;
+  font-size: 1.1em;
+  font-style: 100;
+ }
+
+ .ux-text h1 {
+  color:black;
+font-size: 1.8em;
+font-family: 'Manjari', 'san-serif';
+font-weight: 400;
+padding-top: 2.5%;
+padding-bottom: 0.5%;
+padding-left: 2.5%;
+
+}
+.boxtitle{
+  font-size: 1em;
+  text-align: center;
+  }
+  .boxcontainer{
+   padding: 15% 3%;
+   }
+   .caption{
+     padding-left: 10%;
+    
+   }
+   .pimpact{
+    align-items: left;
+      width:100% ;
+   padding: 15% 3%;
+     
+  }
+  .img-casestudy-grid{
+    width: ;
+  }
 }
 
 .interestingfacts figcaption {
@@ -948,6 +1145,7 @@ max-width: 100%;
 
 }
 .interestingfacts{
+  padding-top: 3%;
   padding-bottom: 7%;
   padding-left: 2%;
   padding-right: 2%;
@@ -965,4 +1163,24 @@ max-width: 100%;
   margin-top: 15%;
   vertical-align: middle;
   width: 100%;
+}
+#btnscrolltotop{
+  
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+   background-color: #8C51A0;
+ color: #fff;
+   border:none;
+  cursor:pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25)
+   
+}
+
+#btnscrolltotop:active{
+   background-color: #80259e;
+;
 }
